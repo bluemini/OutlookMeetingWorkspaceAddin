@@ -1,0 +1,37 @@
+﻿@using Microsoft.WindowsAzure.Storage.Queue;
+@using Microsoft.WindowsAzure.Storage.Auth;
+@using Microsoft.WindowsAzure.Storage;
+@using System.Configuration;
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+		@{
+			var mymessage = "Nothing to do..";
+			var siteName = Request["tsname"];
+			if (!string.IsNullOrEmpty(siteName))
+			{
+				try
+				{
+					CloudStorageAccount sa = CloudStorageAccount.Parse(ConfigurationManager.ConnectionStrings["azurestorage"].ConnectionString);
+					CloudQueueClient queueClient = sa.CreateCloudQueueClient();
+					CloudQueue queue = queueClient.GetQueueReference("meetingworkspace");
+
+					string messageString = "{ \"WorkspaceName\": \"" + siteName + "\" }";
+					CloudQueueMessage message = new CloudQueueMessage(messageString);
+					queue.AddMessage(message);
+
+					mymessage = messageString;
+				}
+				catch (Exception e)
+				{
+					mymessage = "Error: " + e.StackTrace;
+				}
+			}
+		}
+
+		@mymessage
+    </body>
+</html>

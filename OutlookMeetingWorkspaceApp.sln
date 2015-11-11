@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookMeetingWorkspaceApp", "OutlookMeetingWorkspaceApp\OutlookMeetingWorkspaceApp.csproj", "{931D3E0E-3C79-4E7F-84DD-1A4F372F9BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookMeetingWorkspaceAppWeb", "OutlookMeetingWorkspaceAppWeb\OutlookMeetingWorkspaceAppWeb.csproj", "{AAB7EFCA-AC09-477E-9CD2-618584131E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvisionTeamSite", "ProvisionTeamSite\ProvisionTeamSite.csproj", "{EB8392F7-C3C1-4687-BCC4-3621BBC814BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{931D3E0E-3C79-4E7F-84DD-1A4F372F9BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931D3E0E-3C79-4E7F-84DD-1A4F372F9BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931D3E0E-3C79-4E7F-84DD-1A4F372F9BCF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{931D3E0E-3C79-4E7F-84DD-1A4F372F9BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931D3E0E-3C79-4E7F-84DD-1A4F372F9BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{931D3E0E-3C79-4E7F-84DD-1A4F372F9BCF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AAB7EFCA-AC09-477E-9CD2-618584131E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB7EFCA-AC09-477E-9CD2-618584131E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB7EFCA-AC09-477E-9CD2-618584131E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB7EFCA-AC09-477E-9CD2-618584131E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8392F7-C3C1-4687-BCC4-3621BBC814BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8392F7-C3C1-4687-BCC4-3621BBC814BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8392F7-C3C1-4687-BCC4-3621BBC814BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8392F7-C3C1-4687-BCC4-3621BBC814BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://vangampelaere.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OutlookMeetingWorkspaceApp\\OutlookMeetingWorkspaceApp.csproj
+		SccProjectName1 = OutlookMeetingWorkspaceApp
+		SccLocalPath1 = OutlookMeetingWorkspaceApp
+		SccProjectUniqueName2 = OutlookMeetingWorkspaceAppWeb\\OutlookMeetingWorkspaceAppWeb.csproj
+		SccProjectName2 = OutlookMeetingWorkspaceAppWeb
+		SccLocalPath2 = OutlookMeetingWorkspaceAppWeb
+		SccProjectUniqueName3 = ProvisionTeamSite\\ProvisionTeamSite.csproj
+		SccProjectName3 = ProvisionTeamSite
+		SccLocalPath3 = ProvisionTeamSite
+	EndGlobalSection
+EndGlobal
